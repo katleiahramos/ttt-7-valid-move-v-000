@@ -2,12 +2,10 @@
 def valid_move?(index)
  if position_taken?
    return false
- end
- if index > 9 || index < 0
+ elsif index > 9 || index < 0
    return false
- end
  else
-   return true 
+   return true
 
 end
 

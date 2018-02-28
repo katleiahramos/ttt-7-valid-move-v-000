@@ -1,12 +1,12 @@
 # code your #valid_move? method here
-def valid_move?(index)
+def valid_move?(board,index)
  if position_taken?
    return false
  elsif index > 9 || index < 0
    return false
  else
    return true
- end 
+ end
 end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
